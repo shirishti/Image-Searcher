@@ -1,0 +1,96 @@
+body {
+  background: #f5f7f8;
+  font-family: "Courier New", Courier, monospace, sans-serif;
+  padding: 20px 0;
+}
+
+header {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  text-decoration: none;
+  height: fit-content;
+  width: 300px;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0 10px;
+
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+}
+
+article {
+  padding: 20px;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+  color: darkmagenta;
+  margin-bottom: 2px;
+}
+
+p {
+  flex: 1;
+  line-height: 1.4;
+}
+
+span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 2em 0 0 0;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+img {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: -180px;
+  height: 250px;
+  width: 100%;
+}
+
+card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+span .headings {
+  color: #111 !important;
+  font-weight: 900 !important;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tag {
+  background-color: #999;
+  margin-right: 10px;
+  border-radius: 9999px;
+  padding: 2px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+}
